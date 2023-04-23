@@ -1,0 +1,43 @@
+.fondo {
+    display: flex;  /*Para usar las funciones */
+    background-image: url(images.2.jpg);    /*Recomiendo cambiar de imagen, la que usaste es muy chica*/
+    background-size: cover; /*Para que la imagen cubra toda la seccion */
+    cursor:pointer;
+    padding: 10%;
+    align-items: center;    /*El texto se centre*/
+    justify-content: center;    /*El texto se centre*/
+    gap: 2.5rem;    /*Separacion entre clases */
+    flex-wrap: wrap;    /*Para que se acomode cuando no entre */
+}
+
+.fondo img{
+    width: clamp(12rem, 30rem, 80vw);   /*pARA QUE SE ADAPTE LA IMAGEN A LA PANTALLA */
+}
+
+.texto{
+    color: white;
+    text-align: center; /*Centra solo el texto */
+}
+.color {
+    background-color: rgb(51, 128, 128);
+    padding: 5%;
+}
+.card{
+    cursor:pointer;
+    margin: 1rem; /*para separar las tarjetas*/
+}
+
+.tarjetas{      /*Modificaciones de tarjetas*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+
+
+.imagen-nav img{    /*Tamaño de la imagen de la nav*/
+    width: 3rem;
+    padding-right: 5px; /*Para que la imagen este separada del texto INOVE*/
+}
